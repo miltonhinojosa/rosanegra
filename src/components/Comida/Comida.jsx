@@ -35,16 +35,16 @@ export default function ComidaGrid() {
   const [selectedImage, setSelectedImage] = useState(null);
 
   const cards = [
-    { title: "Silpancho", description: "El silpancho es un plato boliviano con carne apanada, arroz, y papas.", image: "/img/comida1.jpg", buttonColor: "bg-purple-600", borderColor: "border-blue-500" },
-    { title: "Pique Macho", description: "Un plato lleno de sabor con papas fritas, carne y salchichas.", image: "/img/comida2.jpg", buttonColor: "bg-sky-500", borderColor: "border-red-500" },
-    { title: "Paylita", description: "Plato boliviano con carne, papas, arroz, huevo frito y ensalada.", image: "/img/comida3.jpg", buttonColor: "bg-green-500", borderColor: "border-yellow-500" },
-    { title: "Pecho/Ala/Pierna", description: "Diferentes cortes de pollo preparados con sazón especial.", image: "/img/comida4.jpg", buttonColor: "bg-yellow-500", borderColor: "border-purple-500" },
-    { title: "Hamburguesa", description: "Carne jugosa, pan suave, queso derretido y vegetales frescos. ¡Un festín!", image: "/img/comida5.jpg", buttonColor: "bg-orange-500", borderColor: "border-green-500" },
-    { title: "Tacos", description: "Ala, pecho y pierna, ¡una explosión de sabor en cada bocado!.", image: "/img/comida6.jpg", buttonColor: "bg-purple-500", borderColor: "border-pink-500" },
-    { title: "Pipoca de pollo", description: "bocaditos crujientes, fritos y perfectos para compartir con amigos y familia.", image: "/img/comida7.jpg", buttonColor: "bg-orange-500", borderColor: "border-blue-500" },
-    { title: "Alitas a la barbacoa", description: "Crujientes por fuera, jugosas por dentro, ¡un festín irresistible!.", image: "/img/comida8.jpg", buttonColor: "bg-yellow-500", borderColor: "border-red-500" },
-    { title: "Alitas a la mostaza", description: "Crujientes por fuera, jugosas por dentro, ¡un sabor inolvidable!.", image: "/img/comida9.jpg", buttonColor: "bg-sky-500", borderColor: "border-orange-500" },
-    { title: "Salchipapa", description: "Papas fritas con salchichas, salsas y otros ingredientes al gusto.", image: "/img/comida10.jpg", buttonColor: "bg-green-500", borderColor: "border-indigo-500" },
+    { title: "Silpancho", description: "El silpancho es un plato boliviano con carne apanada, arroz, y papas.", image: "img/comida1.jpg", buttonColor: "bg-purple-600", borderColor: "border-blue-500" },
+    { title: "Pique Macho", description: "Un plato lleno de sabor con papas fritas, carne y salchichas.", image: "img/comida2.jpg", buttonColor: "bg-sky-500", borderColor: "border-red-500" },
+    { title: "Paylita", description: "Plato boliviano con carne, papas, arroz, huevo frito y ensalada.", image: "img/comida3.jpg", buttonColor: "bg-green-500", borderColor: "border-yellow-500" },
+    { title: "Pecho/Ala/Pierna", description: "Diferentes cortes de pollo preparados con sazón especial.", image: "img/comida4.jpg", buttonColor: "bg-yellow-500", borderColor: "border-purple-500" },
+    { title: "Hamburguesa", description: "Carne jugosa, pan suave, queso derretido y vegetales frescos. ¡Un festín!", image: "img/comida5.jpg", buttonColor: "bg-orange-500", borderColor: "border-green-500" },
+    { title: "Tacos", description: "Ala, pecho y pierna, ¡una explosión de sabor en cada bocado!.", image: "img/comida6.jpg", buttonColor: "bg-purple-500", borderColor: "border-pink-500" },
+    { title: "Pipoca de pollo", description: "bocaditos crujientes, fritos y perfectos para compartir con amigos y familia.", image: "img/comida7.jpg", buttonColor: "bg-orange-500", borderColor: "border-blue-500" },
+    { title: "Alitas a la barbacoa", description: "Crujientes por fuera, jugosas por dentro, ¡un festín irresistible!.", image: "img/comida8.jpg", buttonColor: "bg-yellow-500", borderColor: "border-red-500" },
+    { title: "Alitas a la mostaza", description: "Crujientes por fuera, jugosas por dentro, ¡un sabor inolvidable!.", image: "img/comida9.jpg", buttonColor: "bg-sky-500", borderColor: "border-orange-500" },
+    { title: "Salchipapa", description: "Papas fritas con salchichas, salsas y otros ingredientes al gusto.", image: "img/comida10.jpg", buttonColor: "bg-green-500", borderColor: "border-indigo-500" },
   ];
   return (
     <div className="w-full min-h-screen bg-gradient-to-r from-blue-900 to-purple-800 py-6">
