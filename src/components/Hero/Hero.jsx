@@ -40,7 +40,7 @@ const Hero = () => {
                            target="_blank" 
                            rel="noopener noreferrer" 
                         >
-                           Clic para Ubicación
+                           Ubicación
                             <i className="ml-2 bi bi-geo-alt text-xl"></i>
                         </a>
 
